@@ -1,0 +1,7 @@
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.f-btn:hover .f-u {
+    background-color: red !important;
+}

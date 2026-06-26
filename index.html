@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind Footer Template</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/logo/logo.png" type="image/x-icon">
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+    <!-- Google "Poppins" Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Tailwind JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Add CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Footer -->
+    <footer class="bg-[#13111c] text-white/50">
+        <!-- Links Section -->
+        <section class="w-[1300px] mx-auto pt-20 pb-15 flex gap-[10%]">
+            <div class="w-[34%]">
+                <h3 class="text-white text-[14px] font-medium">Featured</h3>
+                <div class="mt-4 flex flex-col gap-4">
+                    <div class="bg-[#1d1b29] border border-white/12 rounded-xl px-5 py-3">
+                        <h4 class="text-[14px] font-medium text-white/70">
+                            <span>Agents Week</span>
+                            <span class="text-[#a78cfa]">
+                                is now in progress
+                            </span>
+                        </h4>
+                        <p class="my-1 text-[14px] text-base/5 w-[80%]">
+                            Five days of agent-ready Railway. Let the agents ship, every primitive, one command.
+                        </p>
+                        <div class="relative inline-flex">
+                            <a href="#x" class="f-btn text-[14px] text-white/50 duration-400 hover:text-white">
+                                <span>Learn more</span>
+                                <i class="fa-solid fa-arrow-right-long text-[8px]"></i>
+                            </a>
+                            <div class="f-u absolute h-[1px] w-[90px] bg-white/50 bottom-[2px]"></div>
+                        </div>
+                    </div>
+                    <div class="bg-[#1d1b29] border border-white/12 rounded-xl px-5 py-3">
+                        <h4 class="text-[14px] font-medium text-white/70">
+                            <span>Mobile app</span>
+                            <span class="text-[#a78cfa]">
+                                is now available for iOS
+                            </span>
+                        </h4>
+                        <div class="relative">
+                            <p class="my-1 text-[14px] text-base/5 w-[80%]">
+                                Deploy, monitor, and manage your services from anywhere. Your full Railway workspace, now in your pocket.
+                                <a href="#x" class="text-[14px]">
+                                    <span class="f-btn text-white/50">Download now</span>
+                                    <i class="fa-solid fa-square-up-right text-[12px]"></i>
+                                    <div class="absolute h-[1.4px] w-[116px] bg-white/50 left-[134px] bottom-[1px]">
+                                    </div>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-[56%] grid grid-cols-3 gap-4">
+                <ul class="flex flex-col gap-2 text-[14px]">
+                    <h4 class="text-white font-medium">Product</h4>
+                    <li><a href="#x">Features</a></li>
+                    <li><a href="#x">Mobile app</a></li>
+                    <li><a href="#x">Pricing</a></li>
+                    <li><a href="#x">Agents</a></li>
+                    <li><a href="#x">Changelog</a></li>
+                    <li><a href="#x">Templates</a></li>
+                    <li><a href="#x">Template kickback</a></li>
+                </ul>
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>
