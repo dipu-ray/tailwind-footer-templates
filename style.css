@@ -2,6 +2,7 @@ body {
     font-family: "Inter", sans-serif;
 }
 
-.f-btn:hover .f-u {
-    background-color: red !important;
+/* Features box hover on heading */
+.f-card:hover .h-span {
+    color: #ffffff;
 }
